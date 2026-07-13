@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đổi HEIC sang JPG miễn phí | HEIC Simple</title>
+    <meta name="description" content="Chuyển tối đa 200 ảnh HEIC từ iPhone sang JPG ngay trên thiết bị, không tải ảnh lên máy chủ." />
+    <link rel="icon" href="/favicon.svg" />
+    <meta property="og:title" content="HEIC Simple" />
+    <meta property="og:description" content="Đổi HEIC sang JPG — riêng tư, nhanh chóng." />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <div class="brand"><span class="logo">▣</span><div><strong>HEIC Simple</strong><small>Ảnh iPhone, dùng ở mọi nơi</small></div></div>
+        <span class="privacy">🔒 Xử lý riêng tư trên thiết bị</span>
+      </header>
+      <section class="hero">
+        <span class="pill">✨ Miễn phí · Không cần đăng ký</span>
+        <h1>Đổi ảnh HEIC sang JPG<br><em>nhanh và thật đơn giản.</em></h1>
+        <p>Thả ảnh từ iPhone vào đây. Ảnh được chuyển ngay trong trình duyệt và không bao giờ rời khỏi thiết bị của bạn.</p>
+      </section>
+      <section class="card">
+        <label id="dropzone" class="dropzone" for="picker">
+          <span class="upload">↥</span><strong>Kéo và thả ảnh HEIC vào đây</strong><span>hoặc bấm để chọn một hay nhiều ảnh</span>
+          <b>Chọn file HEIC</b><small>Hỗ trợ .HEIC và .HEIF · Tối đa 200 ảnh</small>
+        </label>
+        <input id="picker" type="file" accept=".heic,.heif,image/heic,image/heif" multiple hidden>
+        <p id="notice" class="notice" role="status"></p>
+        <div id="controls" class="controls" hidden>
+          <div class="quality"><label for="quality">Chất lượng JPG: <strong id="qualityValue">90%</strong></label><input id="quality" type="range" min="50" max="100" value="90"></div>
+          <div id="files" class="files"></div>
+          <div class="actions"><button id="clear" class="secondary">Xóa tất cả</button><button id="convert" class="primary">⚡ Chuyển ảnh sang JPG</button><button id="downloadAll" class="primary" hidden>↓ Tải tất cả</button></div>
+        </div>
+      </section>
+      <section class="benefits"><article>🔒 <strong>Riêng tư</strong><span>Không tải ảnh lên server</span></article><article>⚡ <strong>Nhanh chóng</strong><span>Xử lý tới 200 ảnh</span></article><article>↓ <strong>Tiện lợi</strong><span>Tải JPG hoặc một tệp ZIP</span></article></section>
+      <footer class="credit">Made with care by <strong>luannt295</strong></footer>
+    </main>
+    <script type="module" src="/src/vanilla.ts"></script>
+  </body>
+</html>
