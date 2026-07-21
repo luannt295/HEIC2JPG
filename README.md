@@ -6,10 +6,10 @@ Công cụ TypeScript chuyển ảnh HEIC/HEIF từ iPhone sang JPG ngay trong t
 
 ## Tính năng
 
-- Chọn hoặc kéo thả tối đa 200 ảnh HEIC/HEIF.
+- Chọn hoặc kéo thả tối đa 20 ảnh HEIC/HEIF, tổng dung lượng tối đa 200 MB.
 - Điều chỉnh chất lượng JPG từ 50% đến 100%.
-- Tải từng ảnh JPG hoặc tải tất cả trong một file ZIP.
-- Ảnh được xử lý trực tiếp trên thiết bị, không tải lên server.
+- Tải từng ảnh JPG hoặc tải tối đa 10 ảnh trong một file ZIP.
+- Ảnh được xử lý trực tiếp trên thiết bị, không gửi lên máy chủ.
 - Giao diện responsive cho máy tính và điện thoại.
 
 ## Chạy local
